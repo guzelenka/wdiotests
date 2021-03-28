@@ -1,32 +1,61 @@
 import Page from './page';
 
-/**
- * sub page containing specific selectors and methods for a specific page
- */
 class LoginPage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-    get inputUsername () { return $('#username') }
-    get inputPassword () { return $('#password') }
-    get btnSubmit () { return $('button[type="submit"]') }
 
-    /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
-     */
-    login (username, password) {
-        this.inputUsername.setValue(username);
+    get inputUsername () { return $('#normal_login_email'); }
+    get inputPassword () { return $('#normal_login_password'); }
+    get buttonSubmit () { return $('.login-form-button'); }
+
+
+    get loginValidationError () { return $('//div[contains(@class, "ant-form-item-with-help")][.//input[@id="normal_login_email"]]//div[@role="alert"]'); }
+    get passwordValidatorError () { return $('//div[contains(@class, "ant-form-item-with-help")][.//input[@id="normal_login_password"]]//div[@role="alert"]'); }
+    get errorToast() {return $('.ant-notification-notice-message'); }
+
+    open (){
+        return super.open('/');
+    }
+
+
+    setLogin (email){
+        this.inputUsername.setValue(email);
+    }
+
+    setPassword (password){
         this.inputPassword.setValue(password);
-        this.btnSubmit.click(); 
     }
 
-    /**
-     * overwrite specifc options to adapt it to page object
-     */
-    open () {
-        return super.open('login');
+    clickSubmitButton (){
+        this.buttonSubmit.click();
     }
+
+    submitButtonIsDisabled() {
+        expect(this.buttonSubmit).toBeDisabled();
+    }
+
+    emptyLoginInput() {
+        this.inputUsername.clearValue();
+    }
+
+    loginRequiredError() {
+        expect(this.loginValidationError).toBeDisplayed();
+        expect(this.loginValidationError.getText()).toEqual('Required');
+    }
+
+    emptyPasswordInput() {
+        this.inputPassword.clearValue();
+    }
+
+    passwordRequiredError() {
+        expect(this.loginValidationError).toBeDisplayed();
+        expect(this.passwordValidatorError.getText()).toEqual('Required');
+    }
+
+    errorToastAppeared() {
+        expect(this.errorToast).toBeDisplayed();
+
+    }
+
 }
 
-export default new LoginPage();
+    export default new LoginPage();
+
