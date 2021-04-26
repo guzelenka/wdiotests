@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619401504690' stop='1619401511271'>
+    <name>Auth</name>
+    <title>Auth</title>
+    <test-cases>
+        <test-case start='1619401504690' status='passed' stop='1619401507408'>
+            <name>Test 1: User logs in with valid data</name>
+            <title>Test 1: User logs in with valid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619401507408' status='passed' stop='1619401507853'>
+            <name>Test 2: Login button is disabled without entering values</name>
+            <title>Test 2: Login button is disabled without entering values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619401507853' status='passed' stop='1619401509022'>
+            <name>Test 3: Login input is required</name>
+            <title>Test 3: Login input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619401509022' status='passed' stop='1619401510132'>
+            <name>Test 4: Password input is required</name>
+            <title>Test 4: Password input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619401510133' status='passed' stop='1619401511270'>
+            <name>Test 5: Fails with invalid data</name>
+            <title>Test 5: Fails with invalid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

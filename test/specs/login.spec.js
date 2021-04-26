@@ -1,5 +1,6 @@
 import LoginPage from  '../pageobjects/login.page';
-import ProfilePage from '../pageobjects/profile';
+import ProfilePage from '../pageobjects/portal/profile.portal.page';
+
 
 
 describe('Auth', () => {
@@ -16,15 +17,12 @@ describe('Auth', () => {
         LoginPage.setPassword('test1234');
         LoginPage.clickSubmitButton();
         ProfilePage.isOpen();
-
-
     });
+
 
     it('Test 2: Login button is disabled without entering values', () => {
         LoginPage.submitButtonIsDisabled();
-
     });
-
 
 
     it('Test 3: Login input is required', () => {
@@ -47,7 +45,6 @@ describe('Auth', () => {
         LoginPage.setPassword('123456');
         LoginPage.clickSubmitButton();
         LoginPage.errorToastAppeared();
-
     });
 
 

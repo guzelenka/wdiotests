@@ -12,7 +12,7 @@ class LoginPage extends Page {
     get errorToast() {return $('.ant-notification-notice-message'); }
 
     open (){
-        return super.open('/');
+        return super.open('/user/login');
     }
 
 
@@ -33,8 +33,9 @@ class LoginPage extends Page {
     }
 
     emptyLoginInput() {
-        this.inputUsername.clearValue();
+        this.clearInput(this.inputUsername);
     }
+
 
     loginRequiredError() {
         expect(this.loginValidationError).toBeDisplayed();
@@ -42,17 +43,18 @@ class LoginPage extends Page {
     }
 
     emptyPasswordInput() {
-        this.inputPassword.clearValue();
+        this.clearInput(this.inputPassword)
     }
 
+
+
     passwordRequiredError() {
-        expect(this.loginValidationError).toBeDisplayed();
+        expect(this.passwordValidatorError).toBeDisplayed();
         expect(this.passwordValidatorError.getText()).toEqual('Required');
     }
 
     errorToastAppeared() {
         expect(this.errorToast).toBeDisplayed();
-
     }
 
 }

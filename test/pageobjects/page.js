@@ -7,8 +7,10 @@ export default class Page {
 
     }
 
-    // clearInput(element) {
-    //     const value = element.getValue();
-    //     for (let i = 0; value.length; i++)
-    // }
+    clearInput(element) {
+        const value = element.getValue();
+        for (let i = 0; i < value.length; i++) {
+            element.keys(['Backspace']);
+        }
+    }
 }
