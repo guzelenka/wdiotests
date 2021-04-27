@@ -1,0 +1,74 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Test 2: Login button is disabled without entering values",
+      "uid" : "d7bf0057db00234e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237057110,
+        "stop" : 1619237057946,
+        "duration" : 836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "Test 1: User logs in with valid data",
+      "uid" : "a9f899070778dcd5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1619237044805,
+        "stop" : 1619237057110,
+        "duration" : 12305
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "Test 3: Login input is required",
+      "uid" : "8c1781a066a712fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237057946,
+        "stop" : 1619237059267,
+        "duration" : 1321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "Test 5: Fails with invalid data",
+      "uid" : "e7a629f131e52f47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237060422,
+        "stop" : 1619237061642,
+        "duration" : 1220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    }, {
+      "name" : "Test 4: Password input is required",
+      "uid" : "49c1c559ab35384e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237059267,
+        "stop" : 1619237060422,
+        "duration" : 1155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

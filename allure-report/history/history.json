@@ -1,0 +1,178 @@
+{
+  "f23bee68e24bd0d0907481372679bad4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d7bf0057db00234e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237057110,
+        "stop" : 1619237057946,
+        "duration" : 836
+      }
+    }, {
+      "uid" : "fb79f63bb8e47972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235768744,
+        "stop" : 1619235769197,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "3a862dcbdd04d3b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235475206,
+        "stop" : 1619235475660,
+        "duration" : 454
+      }
+    } ]
+  },
+  "8d191534aab68ec0d7d58188c381c3ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "8c1781a066a712fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237057946,
+        "stop" : 1619237059267,
+        "duration" : 1321
+      }
+    }, {
+      "uid" : "1c290ee2f7d2cbd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235769197,
+        "stop" : 1619235770363,
+        "duration" : 1166
+      }
+    }, {
+      "uid" : "f1f88e76ae80daeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235475660,
+        "stop" : 1619235476862,
+        "duration" : 1202
+      }
+    } ]
+  },
+  "42b823924f25501a2b96d72edc5ba899" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e7a629f131e52f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237060422,
+        "stop" : 1619237061642,
+        "duration" : 1220
+      }
+    }, {
+      "uid" : "5ace74bd116df90d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235771464,
+        "stop" : 1619235772703,
+        "duration" : 1239
+      }
+    }, {
+      "uid" : "d8bfb39de0d08441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235478002,
+        "stop" : 1619235479148,
+        "duration" : 1146
+      }
+    } ]
+  },
+  "3aff364a6d4eac7ef7bae4ffad076091" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "a9f899070778dcd5",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"",
+      "time" : {
+        "start" : 1619237044805,
+        "stop" : 1619237057110,
+        "duration" : 12305
+      }
+    }, {
+      "uid" : "1611b3484a05f667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235766028,
+        "stop" : 1619235768744,
+        "duration" : 2716
+      }
+    }, {
+      "uid" : "1f7f21438065159a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235472466,
+        "stop" : 1619235475206,
+        "duration" : 2740
+      }
+    } ]
+  },
+  "d9ce2a031f73d0867ac471ae6d6bb18e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "49c1c559ab35384e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619237059267,
+        "stop" : 1619237060422,
+        "duration" : 1155
+      }
+    }, {
+      "uid" : "35dcd77f2ac4c06c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235770363,
+        "stop" : 1619235771464,
+        "duration" : 1101
+      }
+    }, {
+      "uid" : "6fdf938c81496f3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619235476862,
+        "stop" : 1619235478002,
+        "duration" : 1140
+      }
+    } ]
+  }
+}

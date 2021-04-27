@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619237044805' stop='1619237061644'>
+    <name>Auth</name>
+    <title>Auth</title>
+    <test-cases>
+        <test-case start='1619237044805' status='failed' stop='1619237057110'>
+            <name>Test 1: User logs in with valid data</name>
+            <title>Test 1: User logs in with valid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0e2f7d3f-4fb1-4817-897d-e1087d984a2b-attachment.png' type='image/png' size='38411'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "/profile/"
+                Received: "https://localcoding.us/user/login"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "/profile/"
+                Received: "https://localcoding.us/user/login"
+                    at ProfilePage.isOpen (C:\Users\gugu\WebstormProjects\wdio-test\test\pageobjects\/profile.portal.page.js:8:23)
+                    at Context.&lt;anonymous> (C:\Users\gugu\WebstormProjects\wdio-test\test\specs\/login.spec.js:18:21)
+                    at Context.executeSync (C:\Users\gugu\WebstormProjects\wdio-test\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\gugu\WebstormProjects\wdio-test\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619237057110' status='passed' stop='1619237057946'>
+            <name>Test 2: Login button is disabled without entering values</name>
+            <title>Test 2: Login button is disabled without entering values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619237057946' status='passed' stop='1619237059267'>
+            <name>Test 3: Login input is required</name>
+            <title>Test 3: Login input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619237059267' status='passed' stop='1619237060422'>
+            <name>Test 4: Password input is required</name>
+            <title>Test 4: Password input is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619237060422' status='passed' stop='1619237061642'>
+            <name>Test 5: Fails with invalid data</name>
+            <title>Test 5: Fails with invalid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

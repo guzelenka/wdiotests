@@ -1,0 +1,85 @@
+{
+  "uid" : "8c1781a066a712fe",
+  "name" : "Test 3: Login input is required",
+  "fullName" : "Auth.Test 3: Login input is required",
+  "historyId" : "8d191534aab68ec0d7d58188c381c3ae",
+  "time" : {
+    "start" : 1619237057946,
+    "stop" : 1619237059267,
+    "duration" : 1321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 3: Login input is required"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1c290ee2f7d2cbd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619235769197,
+          "stop" : 1619235770363,
+          "duration" : 1166
+        }
+      }, {
+        "uid" : "f1f88e76ae80daeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619235475660,
+          "stop" : 1619235476862,
+          "duration" : 1202
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8c1781a066a712fe.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}

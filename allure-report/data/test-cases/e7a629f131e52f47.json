@@ -1,0 +1,85 @@
+{
+  "uid" : "e7a629f131e52f47",
+  "name" : "Test 5: Fails with invalid data",
+  "fullName" : "Auth.Test 5: Fails with invalid data",
+  "historyId" : "42b823924f25501a2b96d72edc5ba899",
+  "time" : {
+    "start" : 1619237060422,
+    "stop" : 1619237061642,
+    "duration" : 1220
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test 5: Fails with invalid data"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5ace74bd116df90d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619235771464,
+          "stop" : 1619235772703,
+          "duration" : 1239
+        }
+      }, {
+        "uid" : "d8bfb39de0d08441",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619235478002,
+          "stop" : 1619235479148,
+          "duration" : 1146
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e7a629f131e52f47.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}

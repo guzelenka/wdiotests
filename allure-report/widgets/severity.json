@@ -1,0 +1,51 @@
+[ {
+  "uid" : "49c1c559ab35384e",
+  "name" : "Test 4: Password input is required",
+  "time" : {
+    "start" : 1619237059267,
+    "stop" : 1619237060422,
+    "duration" : 1155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9f899070778dcd5",
+  "name" : "Test 1: User logs in with valid data",
+  "time" : {
+    "start" : 1619237044805,
+    "stop" : 1619237057110,
+    "duration" : 12305
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c1781a066a712fe",
+  "name" : "Test 3: Login input is required",
+  "time" : {
+    "start" : 1619237057946,
+    "stop" : 1619237059267,
+    "duration" : 1321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7a629f131e52f47",
+  "name" : "Test 5: Fails with invalid data",
+  "time" : {
+    "start" : 1619237060422,
+    "stop" : 1619237061642,
+    "duration" : 1220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7bf0057db00234e",
+  "name" : "Test 2: Login button is disabled without entering values",
+  "time" : {
+    "start" : 1619237057110,
+    "stop" : 1619237057946,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

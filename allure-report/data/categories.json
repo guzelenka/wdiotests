@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have url containing\n                \n                Expected: \"/profile/\"\n                Received: \"https://localcoding.us/user/login\"",
+      "children" : [ {
+        "name" : "Test 1: User logs in with valid data",
+        "uid" : "a9f899070778dcd5",
+        "parentUid" : "449fc876a0070b8f0880d4c1ebd08a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619237044805,
+          "stop" : 1619237057110,
+          "duration" : 12305
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "Chrome-90.0.4430.85" ]
+      } ],
+      "uid" : "449fc876a0070b8f0880d4c1ebd08a97"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

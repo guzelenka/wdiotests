@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 24 00:04:17 EDT 2021","Sat Apr 24 00:04:17 EDT 2021","836","","Auth","","Auth","Test 2: Login button is disabled without entering values","Test 2: Login button is disabled without entering values",""
+"failed","Sat Apr 24 00:04:04 EDT 2021","Sat Apr 24 00:04:17 EDT 2021","12305","","Auth","","Auth","Test 1: User logs in with valid data","Test 1: User logs in with valid data",""
+"passed","Sat Apr 24 00:04:17 EDT 2021","Sat Apr 24 00:04:19 EDT 2021","1321","","Auth","","Auth","Test 3: Login input is required","Test 3: Login input is required",""
+"passed","Sat Apr 24 00:04:20 EDT 2021","Sat Apr 24 00:04:21 EDT 2021","1220","","Auth","","Auth","Test 5: Fails with invalid data","Test 5: Fails with invalid data",""
+"passed","Sat Apr 24 00:04:19 EDT 2021","Sat Apr 24 00:04:20 EDT 2021","1155","","Auth","","Auth","Test 4: Password input is required","Test 4: Password input is required",""
