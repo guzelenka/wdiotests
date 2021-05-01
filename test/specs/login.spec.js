@@ -13,8 +13,8 @@ describe('Auth', () => {
     });
 
     it('Test 1: User logs in with valid data', () => {
-        LoginPage.setLogin('cegef16172@heroulo.com');
-        LoginPage.setPassword('test1234');
+        LoginPage.setLogin(process.env.LOGIN);
+        LoginPage.setPassword(process.env.PASSWORD);
         LoginPage.clickSubmitButton();
         ProfilePage.isOpen();
     });

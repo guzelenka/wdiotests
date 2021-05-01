@@ -11,8 +11,8 @@ describe('Navigation', () => {
        MainPage.open();
     });
 
-    it('Courses page opens', () => {
-        MainPage.goToCourses();
-        CoursesPage.isOpen();
-    })
+    // it('Courses page opens', () => {
+    //     MainPage.goToCourses();
+    //     CoursesPage.isOpen();
+    // })
 });
