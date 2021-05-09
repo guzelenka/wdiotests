@@ -1,4 +1,4 @@
-import Page from './page';
+    import Page from './page';
 
 class LoginPage extends Page {
 
@@ -11,49 +11,48 @@ class LoginPage extends Page {
     get passwordValidatorError () { return $('//div[contains(@class, "ant-form-item-with-help")][.//input[@id="normal_login_password"]]//div[@role="alert"]'); }
     get errorToast() {return $('.ant-notification-notice-message'); }
 
-    open (){
+    async open (){
         return super.open('/user/login');
     }
 
 
-    setLogin (email){
-        this.inputUsername.setValue(email);
+    async setLogin (email){
+        return (await this.inputUsername).setValue(email);
     }
 
-    setPassword (password){
-        this.inputPassword.setValue(password);
+    async setPassword (password){
+        return (await this.inputPassword).setValue(password);
     }
 
-    clickSubmitButton (){
-        this.buttonSubmit.click();
+    async clickSubmitButton (){
+        return (await this.buttonSubmit).click();
     }
 
     submitButtonIsDisabled() {
         expect(this.buttonSubmit).toBeDisabled();
     }
 
-    emptyLoginInput() {
-        this.clearInput(this.inputUsername);
+    async emptyLoginInput() {
+        return this.clearInput(await this.inputUsername);
     }
 
 
-    loginRequiredError() {
-        expect(this.loginValidationError).toBeDisplayed();
-        expect(this.loginValidationError.getText()).toEqual('Required');
+    async loginRequiredError() {
+        await expect(this.loginValidationError).toBeDisplayed();
+        await expect(this.loginValidationError.getText()).toEqual('Required');
     }
 
-    emptyPasswordInput() {
-        this.clearInput(this.inputPassword)
+    async emptyPasswordInput() {
+        this.clearInput(await this.inputPassword)
     }
 
 
-
-    passwordRequiredError() {
-        expect(this.passwordValidatorError).toBeDisplayed();
-        expect(this.passwordValidatorError.getText()).toEqual('Required');
+    async passwordRequiredError() {
+        await expect(this.passwordValidatorError).toBeDisplayed();
+        await expect(this.passwordValidatorError).toHaveText('Required');
     }
 
-    errorToastAppeared() {
+    async errorToastAppeared() {
         expect(this.errorToast).toBeDisplayed();
     }
 
