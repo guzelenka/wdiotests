@@ -20,15 +20,15 @@ describe('Auth', () => {
     });
 
 
-    it('Test 2: Login button is disabled without entering values', async () => {
+    it('Test 2: Submit button is disabled without entering values', async () => {
         await LoginPage.submitButtonIsDisabled();
     });
 
 
-    it('Test 3: Login input is required', () => {
-        LoginPage.setLogin('example@mail.com')
-        LoginPage.emptyLoginInput();
-        LoginPage.loginRequiredError();
+    it('Test 3: Login input is required', async () => {
+        await LoginPage.setLogin('example@mail.com')
+        await LoginPage.emptyLoginInput();
+        await LoginPage.loginRequiredError();
     });
 
 
@@ -46,9 +46,6 @@ describe('Auth', () => {
         await LoginPage.clickSubmitButton();
         await LoginPage.errorToastAppeared();
     });
-
-
-
 });
 
 

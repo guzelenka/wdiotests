@@ -1,4 +1,4 @@
-    import Page from './page';
+import Page from './page';
 
 class LoginPage extends Page {
 
@@ -14,7 +14,6 @@ class LoginPage extends Page {
     async open (){
         return super.open('/user/login');
     }
-
 
     async setLogin (email){
         return (await this.inputUsername).setValue(email);
@@ -32,31 +31,28 @@ class LoginPage extends Page {
         expect(this.buttonSubmit).toBeDisabled();
     }
 
+    async errorToastAppeared() {
+        expect(this.errorToast).toBeDisplayed();
+    }
+
     async emptyLoginInput() {
         return this.clearInput(await this.inputUsername);
     }
 
-
     async loginRequiredError() {
         await expect(this.loginValidationError).toBeDisplayed();
-        await expect(this.loginValidationError.getText()).toEqual('Required');
+        await expect(this.loginValidationError).toHaveText('Required');
     }
 
     async emptyPasswordInput() {
-        this.clearInput(await this.inputPassword)
+        return this.clearInput(await this.inputPassword)
     }
-
 
     async passwordRequiredError() {
         await expect(this.passwordValidatorError).toBeDisplayed();
         await expect(this.passwordValidatorError).toHaveText('Required');
     }
-
-    async errorToastAppeared() {
-        expect(this.errorToast).toBeDisplayed();
-    }
-
-}
+ }
 
     export default new LoginPage();
 
